@@ -56,6 +56,7 @@ export default {
     }
   },
   created () {
+    // 測試F
     console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
