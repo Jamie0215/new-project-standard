@@ -56,9 +56,8 @@ export default {
     }
   },
   created () {
-    // 修正一堆錯誤
-    console.log(this);
-    // console.log(this.$route);
+    // 測試測試測試測試測試測試測試測試
+    console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
       this.ID = this.$route.params.id;
