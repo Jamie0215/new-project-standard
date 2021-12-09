@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    // 測試測試測試測試測試測試測試測試
+    // 測試ABC
     console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
