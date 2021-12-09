@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    // 測試
+    // 修正一堆錯誤
     console.log(this);
     // console.log(this.$route);
     console.log(this.$route.params.id)
