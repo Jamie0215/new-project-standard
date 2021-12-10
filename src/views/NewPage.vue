@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    // 四季測試
+    // 上版準備作業
     console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
