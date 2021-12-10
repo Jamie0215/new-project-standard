@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    // 懷舊測試
+    // 準備上版測試
     console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
