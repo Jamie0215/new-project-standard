@@ -53,14 +53,6 @@ const routes = [
             path: "c2a",
             components: {
               left: () => import("../views/componentC.vue"),
-              children: [
-                {
-                  path: "c2a1",
-                  components: {
-                    leftt: () => import("../views/componentB.vue"),
-                  },
-                },
-              ],
               right: () => import("../views/componentA.vue"),
             },
           },
