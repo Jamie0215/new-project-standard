@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    // 上版準備作業-新版三
+    // 上版準備作業-新版四
     console.log(this.$route);
     console.log(this.$route.params.id)
     if (this.$route.params.id){
